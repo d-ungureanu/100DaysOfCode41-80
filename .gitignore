@@ -134,3 +134,6 @@ dmypy.json
 # Passwords Protection
 config.py
 
+#Visual Studio Code
+.vscode
+
