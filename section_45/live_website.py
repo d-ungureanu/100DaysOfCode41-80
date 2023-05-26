@@ -3,7 +3,7 @@ import requests
 
 news_response = requests.get("https://news.ycombinator.com/news")
 
-news_data = news_response.text
+news_data = news_response.content
 
 soup = BeautifulSoup(news_data, "html.parser")
 
